@@ -49,6 +49,7 @@ if __name__ == '__main__':
         rospy.loginfo("Gym environment done")
         print("Gym environment done")
 
+
         # action = [0.0, 0.55, 0.0, 0.77, 0.0, 0.0, 0.0]
         # env.step(action)
         # env._set_action(action)
@@ -58,8 +59,8 @@ if __name__ == '__main__':
         # outdir = pkg_path + '/training_results'
         # env = wrappers.Monitor(env, outdir, force=True)
         # rospy.loginfo("Monitor Wrapper started")
-        # while True:
-        #     a=1+1
+        while True:
+            a=1+1
 
         # For testing 
         # for episode in range(max_episode):
