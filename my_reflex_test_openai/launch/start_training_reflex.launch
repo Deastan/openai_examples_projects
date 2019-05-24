@@ -2,11 +2,9 @@
     <!-- This version uses the openai_ros environments -->
     <!-- <rosparam command="load" file="$(find my_reflex_test_openai)/config/param_training.yaml" /> -->
     <!-- Launch the training system -->
-    <!-- <remap from="reflex_takktile_2/joint_states" to="iiwa/joint_states"/> -->
-    <!-- /reflex_takktile_2/joint_states -->
+
 
     <group ns="iiwa">
         <node pkg="my_reflex_test_openai" name="start_qlearning_reflex" type="start_qlearning_reflex.py" output="screen" />
     </group>
-    <!-- <node pkg="my_reflex_test_openai" name="start_qlearning_reflex" type="start_qlearning_reflex.py" output="screen"/> -->
 </launch>

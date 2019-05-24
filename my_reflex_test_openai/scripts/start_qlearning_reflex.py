@@ -8,6 +8,7 @@ import gym
 import numpy
 import time
 import qlearn
+import random
 from gym import wrappers
 from gym.envs.registration import register
 # ROS packages required
@@ -23,6 +24,14 @@ import roslaunch
 import os
 import git
 import sys
+
+def random_action():
+    a = []
+    for i in range(0, 6):
+        a.append(random.uniform(-0.01, 0.01))
+        # i = i+1
+    return a
+
 
 if __name__ == '__main__':
         # Parameters
@@ -49,9 +58,25 @@ if __name__ == '__main__':
         rospy.loginfo("Gym environment done")
         print("Gym environment done")
 
+        print("Before reset the env" )
+        env.reset()
+        print("After reset the env" )
 
-        # action = [0.0, 0.55, 0.0, 0.77, 0.0, 0.0, 0.0]
-        # env.step(action)
+        print("Action 1" )
+        action = [-0.5, -0.5, -0.5, 1.3, 0.1, 0.5]
+        print("Set Action: " + str(action))
+        env.step(action)
+
+        print("Action 2" )
+        # action2 = [0.2, 0.2, 0.2, -1.3, -0.1, -0.5]
+        action2 = [0.2, 0.2, 0.2, 0.0, 0.0, 0.0]
+        print("Set Action: " + str(action2))
+        env.step(action2)
+
+        # print("Action are sent")
+        print("Before reset the env" )
+        env.reset()
+        print("After reset the env" )
         # env._set_action(action)
         # # Set the logging system
         # rospack = rospkg.RosPack()
@@ -59,13 +84,39 @@ if __name__ == '__main__':
         # outdir = pkg_path + '/training_results'
         # env = wrappers.Monitor(env, outdir, force=True)
         # rospy.loginfo("Monitor Wrapper started")
-        while True:
-            a=1+1
+        for i in range(0,15):
+            a=random_action()
+            env.step(a)
+            print(a)
+
+        print("Before reset the env" )
+        env.reset()
+        print("After reset the env" )
+
+        for i in range(0,10):
+            a=random_action()
+            env.step(a)
+            print(a)
+
+        print("Before reset the env" )
+        env.reset()
+        print("After reset the env" )
+        
+        # while True:
+        #     a=random_action()
+        #     env.step(a)
+        #     print(a)
 
         # For testing 
         # for episode in range(max_episode):
         #     observation = env.reset()
         #     print(episode)
-   
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
+        print("Close node: start_qlearning_reflex.py")
         print("Close node: start_qlearning_reflex.py")
         env.close()
