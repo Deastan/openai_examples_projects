@@ -6,5 +6,6 @@
 
     <group ns="iiwa">
         <node pkg="my_reflex_test_openai" name="start_qlearning_reflex" type="start_qlearning_reflex.py" output="screen" />
+        <!-- <node pkg="my_reflex_test_openai" name="run_algo" type="run_algo.py" output="screen" /> -->
     </group>
 </launch>
