@@ -1,0 +1,49 @@
+Fixed parameters:
+# General Parameters
+    max_episode = 600
+    max_steps = 100
+    MAX_EPISODES = max_episode # Number of episode
+
+    action_size = env.action_space.n
+    state_size = 4046
+    bool_save = True
+    
+    # # Q = np.zeros([env.observation_space.n,env.action_space.n])
+    Q_table = np.zeros((state_size, action_size))
+
+    # Parameters qlearning
+    ALPHA = 0.8
+    GAMMA = 0.95   
+
+    EPSILON = 1.0
+    MAX_EPSILON = 1.0
+    MIN_EPSILON = 0.01
+    DECAY_RATE = 0.005
+
+IMPORTANT : 
+The robot seem to be block arround this position
+('Observation: ', [-0.2858798542300313, -0.021529770701136125, 0.3521137240748262, 0.16380996698382094, 0.7607596507965202, 0.02531837740474909, 0.6275109785512177])
+
+Error:
+Traceback (most recent call last):
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 394, in <module>
+    main()
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 193, in main
+    observation = env.reset()
+  File "/home/roboticlab14/.local/lib/python2.7/site-packages/gym/wrappers/time_limit.py", line 44, in reset
+    return self.env.reset(**kwargs)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 65, in reset
+    self._reset_sim()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 123, in _reset_sim
+    self._set_init_pose()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/task_envs/iiwa_tasks/iiwa_move.py", line 98, in _set_init_pose
+    result = self.set_joint_action(joints_array)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 190, in set_joint_action
+    result = self.moveit_object.set_joints_execute(joints_angle)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 374, in set_joints_execute
+    result = self.group.go(joint_goal, wait=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 455, in go
+    self.set_joint_value_target(joints)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 216, in set_joint_value_target
+    raise MoveItCommanderException("Error setting joint target. Is the target within bounds?")
+moveit_commander.exception.MoveItCommanderException: Error setting joint target. Is the target within bounds?

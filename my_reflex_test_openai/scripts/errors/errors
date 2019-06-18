@@ -1,0 +1,70 @@
+ set when the planner is constructed.
+[ WARN] [1560773894.672802560, 221.554000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560773894.672818930, 221.554000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560773894.672827958, 221.554000000]: No solution found after 0.000028 seconds
+[ WARN] [1560773894.682786390, 221.561000000]: Goal sampling thread never did any work.
+[ INFO] [1560773894.682858182, 221.561000000]: Unable to solve the planning problem
+[ INFO] [1560773894.682884339, 221.561000000]: Planning attempt 3 of at most 5
+[ WARN] [1560773894.682929192, 221.561000000]: Joint 'iiwa_joint_1' from the starting state is outside bounds by a significant margin: [ -3.84151 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560773894.686794645, 221.563000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560773894.686819181, 221.563000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560773894.686867368, 221.563000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560773894.686883945, 221.563000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560773894.686893243, 221.563000000]: No solution found after 0.000028 seconds
+[ WARN] [1560773894.696851932, 221.570000000]: Goal sampling thread never did any work.
+[ INFO] [1560773894.696920723, 221.570000000]: Unable to solve the planning problem
+[ INFO] [1560773894.696945558, 221.570000000]: Planning attempt 4 of at most 5
+[ WARN] [1560773894.696989169, 221.570000000]: Joint 'iiwa_joint_1' from the starting state is outside bounds by a significant margin: [ -3.84151 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560773894.700858779, 221.572000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560773894.700883345, 221.572000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560773894.700931121, 221.572000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560773894.700947026, 221.572000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560773894.700956294, 221.572000000]: No solution found after 0.000028 seconds
+[ WARN] [1560773894.710935902, 221.579000000]: Goal sampling thread never did any work.
+[ INFO] [1560773894.710980605, 221.579000000]: Unable to solve the planning problem
+[ INFO] [1560773894.711004899, 221.579000000]: Planning attempt 5 of at most 5
+[ WARN] [1560773894.711047287, 221.579000000]: Joint 'iiwa_joint_1' from the starting state is outside bounds by a significant margin: [ -3.84151 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560773894.714942274, 221.582000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560773894.714968196, 221.582000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560773894.715016822, 221.582000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560773894.715033326, 221.582000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560773894.715042912, 221.582000000]: No solution found after 0.000028 seconds
+[ WARN] [1560773894.725000999, 221.588000000]: Goal sampling thread never did any work.
+[ INFO] [1560773894.725072340, 221.588000000]: Unable to solve the planning problem
+[ INFO] [1560773894.725215323, 221.588000000]: ABORTED: No motion plan found. No execution attempted.
+[ERROR] [WallTime: 1560773894.726962] WORLD RESET
+
+
+
+
+*******************************************************************
+
+[ INFO] [1560774575.059901375, 0.914000000]: SimpleSetup: Path simplification took 0.000008 seconds and changed from 2 to 2 states
+[ INFO] [1560774575.073576640, 0.923000000]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[ INFO] [1560774575.073620151, 0.923000000]: Goal constraints are already satisfied. No need to plan or execute any motions
+[ERROR] [WallTime: 1560774575.076023] SIMULATION RESET
+I check all the sensors, but it is only a text without action
+[ WARN] [1560774575.086317428, 0.004000000]: Detected jump back in time of 0.902s. Clearing TF buffer.
+[ WARN] [1560774575.086334995, 0.004000000]: Detected jump back in time of 0.902s. Clearing TF buffer.
+[ERROR] [1560774576.088168732, 0.652000000]: Failed to fetch current robot state
+[ERROR] [1560774577.092661508, 1.300000000]: Failed to fetch current robot state
+[WARN] [WallTime: 1560774577.095363] PUBLISHING REWARD...
+[WARN] [WallTime: 1560774577.095474] PUBLISHING REWARD...DONE=0,EP=0
+[ERROR] [1560774578.097845644, 1.949000000]: Failed to fetch current robot state
+[WARN] [WallTime: 1560774583.103920] DONT RESET CONTROLLERS
+I check all the sensors, but it is only a text without action
+[ INFO] [1560774583.105814324, 1.950000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ INFO] [1560774583.109772960, 1.952000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560774583.109805882, 1.952000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ INFO] [1560774583.111116792, 1.953000000]: manipulator[RRTkConfigDefault]: Starting planning with 1 states already in datastructure
+[ INFO] [1560774583.161782512, 1.986000000]: manipulator[RRTkConfigDefault]: Created 4 states
+[ INFO] [1560774583.161806197, 1.986000000]: Solution found in 0.051946 seconds
+[ INFO] [1560774583.161826006, 1.986000000]: SimpleSetup: Path simplification took 0.000002 seconds and changed from 2 to 2 states
+[ INFO] [1560774583.174628812, 1.995000000]: Combined planning and execution request received for MoveGroup action. Forwarding to planning and execution pipeline.
+[ INFO] [1560774583.174660193, 1.995000000]: Goal constraints are already satisfied. No need to plan or execute any motions
+[ERROR] [WallTime: 1560774583.177301] SIMULATION RESET
+I check all the sensors, but it is only a text without action
+[ WARN] [1560774583.213719288, 0.021000000]: Detected jump back in time of 1.96s. Clearing TF buffer.
+[ WARN] [1560774583.213719227, 0.021000000]: Detected jump back in time of 1.96s. Clearing TF buffer.
+[ERROR] [1560774584.183783541, 0.656000000]: Failed to fetch current robot state
+[ERROR] [1560774585.189392188, 1.308000000]: Failed to fetch current robot state

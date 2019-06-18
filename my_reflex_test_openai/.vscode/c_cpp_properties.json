@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/roboticlab14/catkin_ws/devel/include",
+                "/opt/ros/indigo/include",
+                "/home/roboticlab14/catkin_ws/src/iiwa_stack/iiwa_hw/include",
+                "/home/roboticlab14/catkin_ws/src/iiwa_stack/iiwa_ros/include",
+                "/home/roboticlab14/catkin_ws/src/rl_ros_training/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

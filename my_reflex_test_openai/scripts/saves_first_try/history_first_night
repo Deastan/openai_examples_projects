@@ -1,0 +1,556 @@
+Bash History:
+
+[ WARN] [1560472289.541350020, 11058.392000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472289.541361402, 11058.392000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472289.541370908, 11058.392000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472289.541544118, 11058.392000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472289.541555133, 11058.392000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472289.541566898, 11058.392000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472289.665741951, 11058.474000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472289.665964635, 11058.474000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472289.665989794, 11058.474000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472289.666041878, 11058.474000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472289.666059660, 11058.474000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472289.666069335, 11058.474000000]: No solution found after 0.000030 seconds
+[ WARN] [1560472289.676023755, 11058.481000000]: Goal sampling thread never did any work.
+[ INFO] [1560472289.676098773, 11058.481000000]: Unable to solve the planning problem
+[ WARN] [1560472289.676209584, 11058.481000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472289.676367662, 11058.481000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472289.676382985, 11058.481000000]: The trajectory to execute is empty
+[ INFO] [1560472289.676465781, 11058.481000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.2858798549938129, -0.0215297712564079, 0.3521137197087115, 0.16380997024185934, 0.7607596565070109, 0.025318379849134705, 0.6275109706790077])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0, 0.1, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 88)
+*********************************************
+[ WARN] [1560472289.859434692, 11058.584000000]: The complete state of the robot is not yet known.  Missing distal_1_sensor_1_joint, distal_1_sensor_2_joint, distal_1_sensor_3_joint, distal_1_sensor_4_joint, proximal_1_sensor_1_joint, proximal_1_sensor_2_joint, proximal_1_sensor_3_joint, proximal_1_sensor_4_joint, proximal_1_sensor_5_joint, distal_2_sensor_1_joint, distal_2_sensor_2_joint, distal_2_sensor_3_joint, distal_2_sensor_4_joint, proximal_2_sensor_1_joint, proximal_2_sensor_2_joint, proximal_2_sensor_3_joint, proximal_2_sensor_4_joint, proximal_2_sensor_5_joint, distal_3_sensor_1_joint, distal_3_sensor_2_joint, distal_3_sensor_3_joint, distal_3_sensor_4_joint, proximal_3_sensor_1_joint, proximal_3_sensor_2_joint, proximal_3_sensor_3_joint, proximal_3_sensor_4_joint, proximal_3_sensor_5_joint
+[0.1, 0, 0, 0, 0, 0]
+[ INFO] [1560472290.140932379, 11058.689000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472290.140980263, 11058.689000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.140994716, 11058.689000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.141006688, 11058.689000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.141018545, 11058.689000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472290.141195468, 11058.689000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472290.141206673, 11058.689000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472290.141222010, 11058.689000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472290.279577555, 11058.780000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472290.279804967, 11058.780000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472290.279830785, 11058.780000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472290.279882298, 11058.780000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472290.279899334, 11058.780000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472290.279908754, 11058.780000000]: No solution found after 0.000029 seconds
+[ WARN] [1560472290.289886219, 11058.787000000]: Goal sampling thread never did any work.
+[ INFO] [1560472290.289967397, 11058.787000000]: Unable to solve the planning problem
+[ WARN] [1560472290.290153131, 11058.787000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472290.290298454, 11058.787000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472290.290312223, 11058.787000000]: The trajectory to execute is empty
+[ INFO] [1560472290.290386940, 11058.787000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.2858798595492897, -0.021529763575986075, 0.3521136873096739, 0.16380995966808531, 0.7607597659937684, 0.025318408611676575, 0.6275108395430465])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 89)
+*********************************************
+[0, 0, 0.1, 0, 0, 0]
+[ INFO] [1560472290.755653425, 11058.990000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472290.755700580, 11058.990000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.755713419, 11058.990000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.755724975, 11058.990000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472290.755734684, 11058.990000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472290.755906693, 11058.990000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472290.755918062, 11058.990000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472290.755932537, 11058.990000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472290.885881416, 11059.077000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472290.886100211, 11059.077000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472290.886124870, 11059.077000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472290.886174915, 11059.077000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472290.886192354, 11059.077000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472290.886201485, 11059.077000000]: No solution found after 0.000029 seconds
+[ WARN] [1560472290.896192861, 11059.084000000]: Goal sampling thread never did any work.
+[ INFO] [1560472290.896271332, 11059.084000000]: Unable to solve the planning problem
+[ WARN] [1560472290.896367846, 11059.084000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472290.896537904, 11059.084000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472290.896553003, 11059.084000000]: The trajectory to execute is empty
+[ INFO] [1560472290.896661701, 11059.084000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.28587985514829284, -0.021529770131992688, 0.35211371866140495, 0.16380996842844886, 0.7607596625835221, 0.025318382461836784, 0.6275109636801515])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0, 0.1, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 90)
+*********************************************
+[0, 0.1, 0, 0, 0, 0]
+[ INFO] [1560472291.370269445, 11059.300000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472291.370319063, 11059.300000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.370332490, 11059.300000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.370343057, 11059.301000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.370352345, 11059.301000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472291.370528906, 11059.301000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472291.370540142, 11059.301000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472291.370555457, 11059.301000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472291.504414882, 11059.390000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472291.504638585, 11059.390000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472291.504662031, 11059.390000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472291.504711424, 11059.390000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472291.504728269, 11059.390000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472291.504737785, 11059.390000000]: No solution found after 0.000028 seconds
+[ WARN] [1560472291.514696994, 11059.397000000]: Goal sampling thread never did any work.
+[ INFO] [1560472291.514771758, 11059.397000000]: Unable to solve the planning problem
+[ WARN] [1560472291.515001463, 11059.397000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472291.515142180, 11059.397000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472291.515156654, 11059.397000000]: The trajectory to execute is empty
+[ INFO] [1560472291.515226786, 11059.397000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.28587985348540595, -0.021529770679264402, 0.35211372452317846, 0.1638099582701137, 0.7607596489168688, 0.025318379406979057, 0.6275109830239073])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0.1, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 91)
+*********************************************
+[0.1, 0, 0, 0, 0, 0]
+[ WARN] [1560472291.959944248, 11059.599000000]: The complete state of the robot is not yet known.  Missing distal_1_sensor_1_joint, distal_1_sensor_2_joint, distal_1_sensor_3_joint, distal_1_sensor_4_joint, proximal_1_sensor_1_joint, proximal_1_sensor_2_joint, proximal_1_sensor_3_joint, proximal_1_sensor_4_joint, proximal_1_sensor_5_joint, distal_2_sensor_1_joint, distal_2_sensor_2_joint, distal_2_sensor_3_joint, distal_2_sensor_4_joint, proximal_2_sensor_1_joint, proximal_2_sensor_2_joint, proximal_2_sensor_3_joint, proximal_2_sensor_4_joint, proximal_2_sensor_5_joint, distal_3_sensor_1_joint, distal_3_sensor_2_joint, distal_3_sensor_3_joint, distal_3_sensor_4_joint, proximal_3_sensor_1_joint, proximal_3_sensor_2_joint, proximal_3_sensor_3_joint, proximal_3_sensor_4_joint, proximal_3_sensor_5_joint
+[ INFO] [1560472291.981190517, 11059.613000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472291.981243872, 11059.613000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.981259550, 11059.613000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.981272963, 11059.613000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472291.981285054, 11059.613000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472291.981457576, 11059.613000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472291.981468438, 11059.613000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472291.981483503, 11059.613000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472292.109573452, 11059.698000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472292.109792385, 11059.698000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472292.109817620, 11059.698000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472292.109867227, 11059.698000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472292.109883826, 11059.698000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472292.109892932, 11059.698000000]: No solution found after 0.000027 seconds
+[ WARN] [1560472292.119850619, 11059.704000000]: Goal sampling thread never did any work.
+[ INFO] [1560472292.119939133, 11059.704000000]: Unable to solve the planning problem
+[ WARN] [1560472292.120149807, 11059.704000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472292.120302649, 11059.705000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472292.120319949, 11059.705000000]: The trajectory to execute is empty
+[ INFO] [1560472292.120373859, 11059.705000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.28587985956539286, -0.02152976227178086, 0.3521136874013422, 0.16380996120171662, 0.7607597676427073, 0.025318408520854034, 0.6275108371472777])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 92)
+*********************************************
+[0, 0.1, 0, 0, 0, 0]
+[ INFO] [1560472292.590061119, 11059.892000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472292.590108143, 11059.892000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472292.590122601, 11059.892000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472292.590135107, 11059.892000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472292.590149780, 11059.892000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472292.590321272, 11059.892000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472292.590332377, 11059.892000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472292.590347008, 11059.892000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472292.715939520, 11059.977000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472292.716159309, 11059.977000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472292.716183615, 11059.977000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472292.716233784, 11059.977000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472292.716251733, 11059.977000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472292.716260873, 11059.977000000]: No solution found after 0.000029 seconds
+[ WARN] [1560472292.726217243, 11059.983000000]: Goal sampling thread never did any work.
+[ INFO] [1560472292.726261317, 11059.983000000]: Unable to solve the planning problem
+[ WARN] [1560472292.726360849, 11059.983000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472292.726578300, 11059.984000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472292.726593856, 11059.984000000]: The trajectory to execute is empty
+[ INFO] [1560472292.726676784, 11059.984000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.28587985521416537, -0.021529769012341878, 0.3521137184440926, 0.16380996980727605, 0.7607596649432746, 0.025318383000555153, 0.6275109604376429])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0.1, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 93)
+*********************************************
+[0, 0, 0.1, 0, 0, 0]
+[ INFO] [1560472293.198769130, 11060.196000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472293.198816686, 11060.196000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.198831182, 11060.196000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.198855878, 11060.196000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.198874309, 11060.196000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472293.199043942, 11060.197000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472293.199054302, 11060.197000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472293.199066062, 11060.197000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472293.330028462, 11060.284000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472293.330253631, 11060.284000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472293.330278364, 11060.284000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472293.330328686, 11060.284000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472293.330345703, 11060.284000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472293.330355247, 11060.284000000]: No solution found after 0.000029 seconds
+[ WARN] [1560472293.340314474, 11060.291000000]: Goal sampling thread never did any work.
+[ INFO] [1560472293.340390886, 11060.291000000]: Unable to solve the planning problem
+[ WARN] [1560472293.340563802, 11060.291000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472293.340734507, 11060.291000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472293.340749796, 11060.291000000]: The trajectory to execute is empty
+[ INFO] [1560472293.340821655, 11060.291000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.2858798530106202, -0.02152977079640342, 0.3521137267194931, 0.1638099578682959, 0.7607596442339636, 0.025318377789755948, 0.6275109888713468])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0, 0.1, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 94)
+*********************************************
+[0, 0, 0.1, 0, 0, 0]
+[ INFO] [1560472293.807047741, 11060.501000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472293.807097111, 11060.501000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.807112271, 11060.501000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.807126128, 11060.501000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472293.807138143, 11060.501000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472293.807308173, 11060.501000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472293.807319057, 11060.501000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472293.807332443, 11060.501000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472293.939591035, 11060.587000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472293.939809369, 11060.588000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472293.939834043, 11060.588000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472293.939882999, 11060.588000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472293.939899091, 11060.588000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472293.939908200, 11060.588000000]: No solution found after 0.000028 seconds
+[ WARN] [1560472293.949896382, 11060.594000000]: Goal sampling thread never did any work.
+[ INFO] [1560472293.949946816, 11060.594000000]: Unable to solve the planning problem
+[ WARN] [1560472293.950066457, 11060.594000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472293.950272831, 11060.594000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472293.950289421, 11060.595000000]: The trajectory to execute is empty
+[ INFO] [1560472293.950360992, 11060.595000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+[ WARN] [1560472294.051458374, 11060.660000000]: The complete state of the robot is not yet known.  Missing distal_1_sensor_1_joint, distal_1_sensor_2_joint, distal_1_sensor_3_joint, distal_1_sensor_4_joint, proximal_1_sensor_1_joint, proximal_1_sensor_2_joint, proximal_1_sensor_3_joint, proximal_1_sensor_4_joint, proximal_1_sensor_5_joint, distal_2_sensor_1_joint, distal_2_sensor_2_joint, distal_2_sensor_3_joint, distal_2_sensor_4_joint, proximal_2_sensor_1_joint, proximal_2_sensor_2_joint, proximal_2_sensor_3_joint, proximal_2_sensor_4_joint, proximal_2_sensor_5_joint, distal_3_sensor_1_joint, distal_3_sensor_2_joint, distal_3_sensor_3_joint, distal_3_sensor_4_joint, proximal_3_sensor_1_joint, proximal_3_sensor_2_joint, proximal_3_sensor_3_joint, proximal_3_sensor_4_joint, proximal_3_sensor_5_joint
+wrong direction
+*********************************************
+('Observation: ', [-0.2858798604747481, -0.02152976137615325, 0.3521136866588805, 0.1638099608915072, 0.7607597685635796, 0.025318408902606244, 0.627510836096439])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0, 0.1, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 95)
+*********************************************
+[0, 0.1, 0, 0, 0, 0]
+[ INFO] [1560472294.415274822, 11060.797000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472294.415326739, 11060.797000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472294.415341036, 11060.797000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472294.415355058, 11060.797000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472294.415367397, 11060.797000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472294.415540847, 11060.797000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472294.415553353, 11060.797000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472294.415569236, 11060.797000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472294.544998537, 11060.884000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472294.545226464, 11060.884000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472294.545250775, 11060.884000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472294.545299997, 11060.884000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472294.545327617, 11060.884000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472294.545338205, 11060.884000000]: No solution found after 0.000041 seconds
+[ WARN] [1560472294.555315980, 11060.891000000]: Goal sampling thread never did any work.
+[ INFO] [1560472294.555394790, 11060.891000000]: Unable to solve the planning problem
+[ WARN] [1560472294.555506114, 11060.891000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472294.555725139, 11060.891000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472294.555740819, 11060.891000000]: The trajectory to execute is empty
+[ INFO] [1560472294.555797633, 11060.891000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.28587985563549245, -0.02152976855701399, 0.3521137182114932, 0.16380997085898055, 0.7607596664382766, 0.02531838325271004, 0.6275109583404669])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [0, 0.1, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 96)
+*********************************************
+[-0.1, 0, 0, 0, 0, 0]
+[ INFO] [1560472295.013699235, 11061.125000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472295.013744226, 11061.125000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.013757380, 11061.125000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.013771692, 11061.125000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.013782293, 11061.125000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472295.013948263, 11061.125000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472295.013959034, 11061.125000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472295.013971497, 11061.125000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472295.130672678, 11061.201000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472295.130893282, 11061.201000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472295.130919331, 11061.201000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472295.130967107, 11061.202000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472295.130981970, 11061.202000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472295.130989812, 11061.202000000]: No solution found after 0.000025 seconds
+[ WARN] [1560472295.141002533, 11061.208000000]: Goal sampling thread never did any work.
+[ INFO] [1560472295.141075748, 11061.208000000]: Unable to solve the planning problem
+[ WARN] [1560472295.141250867, 11061.208000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472295.141398737, 11061.208000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472295.141414432, 11061.208000000]: The trajectory to execute is empty
+[ INFO] [1560472295.141528035, 11061.209000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.2858798547607404, -0.021529769988793655, 0.3521137221283142, 0.1638099674691768, 0.7607596559748324, 0.02531837883277111, 0.6275109720890003])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [-0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 97)
+*********************************************
+[-0.1, 0, 0, 0, 0, 0]
+[ INFO] [1560472295.606230523, 11061.409000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472295.606278570, 11061.409000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.606292601, 11061.409000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.606306421, 11061.409000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472295.606318116, 11061.409000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472295.606491566, 11061.409000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472295.606502690, 11061.409000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472295.606517779, 11061.409000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472295.731955816, 11061.493000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472295.732185719, 11061.493000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472295.732215972, 11061.493000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472295.732266894, 11061.493000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472295.732284208, 11061.494000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472295.732293466, 11061.494000000]: No solution found after 0.000029 seconds
+[ WARN] [1560472295.742245445, 11061.500000000]: Goal sampling thread never did any work.
+[ INFO] [1560472295.742289723, 11061.500000000]: Unable to solve the planning problem
+[ WARN] [1560472295.742469607, 11061.500000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472295.742614565, 11061.500000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472295.742630793, 11061.500000000]: The trajectory to execute is empty
+[ INFO] [1560472295.742720045, 11061.501000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.2858798548394158, -0.021529770218429514, 0.3521137225987113, 0.1638099661760389, 0.7607596577534544, 0.02531837872413263, 0.6275109702746504])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [-0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 98)
+*********************************************
+[-0.1, 0, 0, 0, 0, 0]
+[ WARN] [1560472296.203496427, 11061.691000000]: The complete state of the robot is not yet known.  Missing distal_1_sensor_1_joint, distal_1_sensor_2_joint, distal_1_sensor_3_joint, distal_1_sensor_4_joint, proximal_1_sensor_1_joint, proximal_1_sensor_2_joint, proximal_1_sensor_3_joint, proximal_1_sensor_4_joint, proximal_1_sensor_5_joint, distal_2_sensor_1_joint, distal_2_sensor_2_joint, distal_2_sensor_3_joint, distal_2_sensor_4_joint, proximal_2_sensor_1_joint, proximal_2_sensor_2_joint, proximal_2_sensor_3_joint, proximal_2_sensor_4_joint, proximal_2_sensor_5_joint, distal_3_sensor_1_joint, distal_3_sensor_2_joint, distal_3_sensor_3_joint, distal_3_sensor_4_joint, proximal_3_sensor_1_joint, proximal_3_sensor_2_joint, proximal_3_sensor_3_joint, proximal_3_sensor_4_joint, proximal_3_sensor_5_joint
+[ INFO] [1560472296.208435947, 11061.695000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472296.208489088, 11061.695000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.208503728, 11061.695000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.208517208, 11061.695000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.208530108, 11061.695000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472296.208706434, 11061.695000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472296.208717045, 11061.695000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472296.208732015, 11061.695000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472296.323441654, 11061.772000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472296.323663692, 11061.772000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472296.323746306, 11061.772000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472296.323800097, 11061.772000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472296.323817646, 11061.772000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472296.323828254, 11061.772000000]: No solution found after 0.000030 seconds
+[ WARN] [1560472296.333736472, 11061.778000000]: Goal sampling thread never did any work.
+[ INFO] [1560472296.333778833, 11061.778000000]: Unable to solve the planning problem
+[ WARN] [1560472296.333943998, 11061.778000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472296.334213545, 11061.779000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472296.334230648, 11061.779000000]: The trajectory to execute is empty
+[ INFO] [1560472296.334309907, 11061.779000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+wrong direction
+*********************************************
+('Observation: ', [-0.2858798555711213, -0.021529768688858444, 0.3521137186780714, 0.16380997045666712, 0.7607596659138365, 0.025318383202824254, 0.6275109590833046])
+('State: ', 1009)
+('Reward: ', -2.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [-0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 99)
+*********************************************
+[-0.1, 0, 0, 0, 0, 0]
+[ INFO] [1560472296.799742780, 11061.989000000]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[ WARN] [1560472296.799788331, 11061.989000000]: Joint 'iiwa_joint_4' from the starting state is outside bounds by a significant margin: [ 14.6345 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.799801104, 11061.989000000]: Joint 'iiwa_joint_5' from the starting state is outside bounds by a significant margin: [ 3.36288 ] should be in the range [ -2.93215 ], [ 2.93215 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.799815048, 11061.989000000]: Joint 'iiwa_joint_6' from the starting state is outside bounds by a significant margin: [ 14.6002 ] should be in the range [ -2.05949 ], [ 2.05949 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ WARN] [1560472296.799826568, 11061.989000000]: Joint 'iiwa_joint_7' from the starting state is outside bounds by a significant margin: [ 3.2192 ] should be in the range [ -3.01942 ], [ 3.01942 ] but the error above the ~start_state_max_bounds_error parameter (currently set to 0.1)
+[ INFO] [1560472296.799993778, 11061.989000000]: Found a contact between 'pad' (type 'Robot link') and 'flex_link_2' (type 'Robot link'), which constitutes a collision. Contact information is not stored.
+[ INFO] [1560472296.800005225, 11061.989000000]: Collision checking is considered complete (collision was found and 0 contacts are stored)
+[ INFO] [1560472296.800021071, 11061.989000000]: Start state appears to be in collision with respect to group manipulator
+[ WARN] [1560472296.912119213, 11062.064000000]: Unable to find a valid state nearby the start state (using jiggle fraction of 0.050000 and 100 sampling attempts). Passing the original planning request to the planner.
+[ INFO] [1560472296.912342170, 11062.065000000]: No optimization objective specified, defaulting to PathLengthOptimizationObjective
+[ INFO] [1560472296.912367101, 11062.065000000]: Planner configuration 'manipulator[RRTkConfigDefault]' will use planner 'geometric::RRT'. Additional configuration parameters will be set when the planner is constructed.
+[ WARN] [1560472296.912417976, 11062.065000000]: manipulator[RRTkConfigDefault]: Skipping invalid start state (invalid bounds)
+[ERROR] [1560472296.912435034, 11062.065000000]: manipulator[RRTkConfigDefault]: There are no valid initial states!
+[ INFO] [1560472296.912442981, 11062.065000000]: No solution found after 0.000028 seconds
+[ WARN] [1560472296.922457026, 11062.071000000]: Goal sampling thread never did any work.
+[ INFO] [1560472296.922507488, 11062.071000000]: Unable to solve the planning problem
+[ WARN] [1560472296.922719471, 11062.071000000]: Fail: ABORTED: No motion plan found. No execution attempted.
+[ INFO] [1560472296.922929541, 11062.072000000]: Execution request received for ExecuteTrajectory action.
+[ WARN] [1560472296.922944412, 11062.072000000]: The trajectory to execute is empty
+[ INFO] [1560472296.923021311, 11062.072000000]: ABORTED: Solution found but controller failed during execution
+*******************************************************
+COULD NOT MOVE
+*******************************************************
+right direction
+*********************************************
+('Observation: ', [-0.2858798542300313, -0.021529770701136125, 0.3521137240748262, 0.16380996698382094, 0.7607596507965202, 0.02531837740474909, 0.6275109785512177])
+('State: ', 1009)
+('Reward: ', 1.0)
+('Done: ', False)
+('Info: ', {})
+('Action: ', [-0.1, 0, 0, 0, 0, 0])
+('Episode: ', 264)
+('Step: ', 100)
+*********************************************
+I check all the sensors, but it is only a text without action
+Traceback (most recent call last):
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 394, in <module>
+    main()
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 193, in main
+    observation = env.reset()
+  File "/home/roboticlab14/.local/lib/python2.7/site-packages/gym/wrappers/time_limit.py", line 44, in reset
+    return self.env.reset(**kwargs)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 65, in reset
+    self._reset_sim()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 123, in _reset_sim
+    self._set_init_pose()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/task_envs/iiwa_tasks/iiwa_move.py", line 98, in _set_init_pose
+    result = self.set_joint_action(joints_array)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 190, in set_joint_action
+    result = self.moveit_object.set_joints_execute(joints_angle)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 374, in set_joints_execute
+    result = self.group.go(joint_goal, wait=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 455, in go
+    self.set_joint_value_target(joints)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 216, in set_joint_value_target
+    raise MoveItCommanderException("Error setting joint target. Is the target within bounds?")
+moveit_commander.exception.MoveItCommanderException: Error setting joint target. Is the target within bounds?
+[gazebo_gui-2] killing on exit
+[gazebo-1] killing on exit
+[ INFO] [1560472297.700117810, 11062.300000000]: Disconnecting contact sensor distal_1_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.700556673, 11062.300000000]: Disconnecting contact sensor distal_1_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.700996087, 11062.300000000]: Disconnecting contact sensor distal_1_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.701458943, 11062.300000000]: Disconnecting contact sensor distal_1_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.701862120, 11062.300000000]: Disconnecting contact sensor proximal_1_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.702254452, 11062.300000000]: Disconnecting contact sensor proximal_1_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.702674302, 11062.300000000]: Disconnecting contact sensor proximal_1_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.703028573, 11062.300000000]: Disconnecting contact sensor proximal_1_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.703484308, 11062.300000000]: Disconnecting contact sensor proximal_1_sensor_5_contact_sensor_plugin
+[ INFO] [1560472297.703905284, 11062.300000000]: Disconnecting contact sensor distal_2_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.704263141, 11062.300000000]: Disconnecting contact sensor distal_2_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.704665612, 11062.300000000]: Disconnecting contact sensor distal_2_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.705088395, 11062.300000000]: Disconnecting contact sensor distal_2_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.705703444, 11062.300000000]: Disconnecting contact sensor proximal_2_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.706217565, 11062.300000000]: Disconnecting contact sensor proximal_2_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.706621476, 11062.300000000]: Disconnecting contact sensor proximal_2_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.706987702, 11062.300000000]: Disconnecting contact sensor proximal_2_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.707350642, 11062.300000000]: Disconnecting contact sensor proximal_2_sensor_5_contact_sensor_plugin
+[ INFO] [1560472297.707747946, 11062.300000000]: Disconnecting contact sensor distal_3_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.708069135, 11062.300000000]: Disconnecting contact sensor distal_3_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.708390258, 11062.300000000]: Disconnecting contact sensor distal_3_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.708737401, 11062.300000000]: Disconnecting contact sensor distal_3_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.709069628, 11062.300000000]: Disconnecting contact sensor proximal_3_sensor_1_contact_sensor_plugin
+[ INFO] [1560472297.709859321, 11062.300000000]: Disconnecting contact sensor proximal_3_sensor_2_contact_sensor_plugin
+[ INFO] [1560472297.710232021, 11062.300000000]: Disconnecting contact sensor proximal_3_sensor_3_contact_sensor_plugin
+[ INFO] [1560472297.710597122, 11062.300000000]: Disconnecting contact sensor proximal_3_sensor_4_contact_sensor_plugin
+[ INFO] [1560472297.710950642, 11062.300000000]: Disconnecting contact sensor proximal_3_sensor_5_contact_sensor_plugin
+[iiwa/robot_state_publisher_BIM-8] killing on exit
+[iiwa/move_group-6] killing on exit
+[transmissionProximalDistal-5] killing on exit
+[reflex_takktile_2/controller_spawner_reflex-4] killing on exit
+[iiwa/controller_spawner-3] killing on exit
+[INFO] [WallTime: 1560472298.028565] [11062.300000] Shutting down spawner. Stopping and unloading controllers...
+[INFO] [WallTime: 1560472298.029318] [11062.300000] Shutting down spawner. Stopping and unloading controllers...
+[WARN] [WallTime: 1560472301.148119] [11062.300000] Controller Spawner couldn't reach controller_manager to take down controllers. Waited for 2 second(s).
+[WARN] [WallTime: 1560472301.149194] [11062.300000] Controller Spawner couldn't reach controller_manager to take down controllers. Waited for 2 second(s).
+terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<boost::lock_error> >'
+  what():  boost: mutex lock failed in pthread_mutex_lock: Invalid argument
+[iiwa/start_qlearning_reflex-2] process has died [pid 24934, exit code -6, cmd /home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py __name:=start_qlearning_reflex __log:=/home/roboticlab14/.ros/log/9e6ae31a-8e07-11e9-9f95-7085c28f82c2/iiwa-start_qlearning_reflex-2.log].
+log file: /home/roboticlab14/.ros/log/9e6ae31a-8e07-11e9-9f95-7085c28f82c2/iiwa-start_qlearning_reflex-2*.log
+^A^C[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+
+
+******************************************************************************************************************************************************
+IMPORTANT : 
+The robot seem to be block arround this position
+('Observation: ', [-0.2858798542300313, -0.021529770701136125, 0.3521137240748262, 0.16380996698382094, 0.7607596507965202, 0.02531837740474909, 0.6275109785512177])
+Traceback (most recent call last):
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 394, in <module>
+    main()
+  File "/home/roboticlab14/catkin_ws/src/openai_examples_projects/my_reflex_test_openai/scripts/start_qlearning_reflex.py", line 193, in main
+    observation = env.reset()
+  File "/home/roboticlab14/.local/lib/python2.7/site-packages/gym/wrappers/time_limit.py", line 44, in reset
+    return self.env.reset(**kwargs)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 65, in reset
+    self._reset_sim()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_gazebo_env.py", line 123, in _reset_sim
+    self._set_init_pose()
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/task_envs/iiwa_tasks/iiwa_move.py", line 98, in _set_init_pose
+    result = self.set_joint_action(joints_array)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 190, in set_joint_action
+    result = self.moveit_object.set_joints_execute(joints_angle)
+  File "/home/roboticlab14/catkin_ws/src/openai_ros/openai_ros/src/openai_ros/robot_envs/iiwa_env.py", line 374, in set_joints_execute
+    result = self.group.go(joint_goal, wait=True)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 455, in go
+    self.set_joint_value_target(joints)
+  File "/opt/ros/indigo/lib/python2.7/dist-packages/moveit_commander/move_group.py", line 216, in set_joint_value_target
+    raise MoveItCommanderException("Error setting joint target. Is the target within bounds?")
+moveit_commander.exception.MoveItCommanderException: Error setting joint target. Is the target within bounds?
