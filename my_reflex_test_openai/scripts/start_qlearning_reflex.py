@@ -89,6 +89,9 @@ def env_to_state(x, y, z):
 
 # save the data
 def save(list_demos, name="demos_default_name"):
+    '''
+    Save a list in a .pkl file on the harddisk. Return if it did it or not.
+    '''
     global here
     saved = False
     try:
@@ -100,14 +103,36 @@ def save(list_demos, name="demos_default_name"):
         print("ERROR: Couldn't save the file .pkl")
     return saved
 
+def save_txt(number_dones):
+    '''
+    Save a sumary in a txt files
+    '''
+    name = "saves/dones.txt"
+    file = open(os.path.join(here, name),'w')
+    file.write("##############################################################")
+    file.write("######################  Summary  #############################")
+    file.write("##############################################################")
+    file.write("Number of done: ")
+    file.write(str(number_dones))
+    file.write("\n")
+    
+    file.close() 
+
+
 # Load the data
 # TODO
 def load(name="demos_default_name"):
+    '''
+    Load the needed data
+    '''
     name = name + ".pkl"
     with open(name, 'rb') as f:
         return pickle.load(f)
 
 def init_env():
+    '''
+    Init the environment
+    '''
     # Cheating with the registration 
     # (shortcut: look at openai_ros_common.py and task_envs_list.py)
     timestep_limit_per_episode = 10000
@@ -155,11 +180,27 @@ def test_function_discrete(env, max_steps):
         print("Action: ",  action)
         print("*********************************************")
 
+def plot2d(increment, reward):
+    '''
+    Reward history. 
+    '''
+    print("plotting")
+
+    fig = plt.figure()
+    plt.plot(increment, reward)
+    plt.xlabel('Iterations')
+    plt.ylabel('Reward')
+    plt.title('Reward over time')
+    plt.savefig('reward.jpg')     
+    plt.show()
+    # time.sleep(5.0)
+    plt.close(fig)
+
 def qlearning(env):
     
     # General Parameters
-    max_episode = 50
-    max_steps = 25
+    max_episode = 100
+    max_steps = 20
     MAX_EPISODES = max_episode # Number of episode
 
     action_size = env.action_space.n
@@ -182,7 +223,7 @@ def qlearning(env):
     MAX_EPSILON = 1.0
     MIN_EPSILON = 0.01
     DECAY_RATE = 0.005
-
+    done_increment = 0
     # time_start = rospy.Time.now()
     for episode in range(MAX_EPISODES):
         # time_episode_start = rospy.Time.now()
@@ -192,20 +233,22 @@ def qlearning(env):
             save(Q_table, name=("saves/qtable_qlearning_"+str(episode)))
             save(rewards_list, name=("saves/rewards_list_qlearning_"+str(episode)))
             save(episode_list, name=("saves/episode_list_qlearning_"+str(episode)))
+            save_txt(done_increment)
+            # plot2d(episode_list, rewards_list)
             # print("FILE SAVED!!!")
             
         observation = env.reset()
         # rospy.sleep(5.0)
 
         # To be sure we can save reset the env while the robot is moving
-        rospy.sleep(1.0)
+        # rospy.sleep(1.0)
         state = env_to_state(observation[0], observation[1], observation[2])
 
         # Counter an sum to reset
         step = 0
         done = False
         total_rewards = 0
-
+        
         # Loop where the robot move and learn
         while (not done) and (step <= max_steps):
     
@@ -225,6 +268,7 @@ def qlearning(env):
             print("State: ", state)
             print("Reward: ", reward)
             print("Done: ", done)
+            print("# dones: ", done_increment)
             print("Info: ", info)
             print("Action: ",  action)
             print("Episode: ", episode)
@@ -236,6 +280,7 @@ def qlearning(env):
 
             if done:
                 q_target = reward
+                done_increment +=1
             else:
                 q_target = reward + GAMMA * np.max(Q_table[new_state, :])
             Q_table[state, discrete_act] +=  ALPHA * (q_target - q_predict)
@@ -246,14 +291,13 @@ def qlearning(env):
             total_rewards += reward
             step += 1
 
-            rospy.sleep(0.1)
+            # rospy.sleep(0.1)
         #End of the robot movement (reset the world for different reason done or max_step reached)
 
         EPSILON = MIN_EPSILON + (MAX_EPSILON - MIN_EPSILON) * np.exp(-DECAY_RATE * episode)
         # print(EPSILON)
         rewards_list.append(total_rewards)
         episode_list.append(episode)
-
         
     # End of the qlearning
 
@@ -265,16 +309,20 @@ def main():
 
 
     env = init_env()
-    qlearning(env)
-    # env.reset()
-    # rospy.sleep(3.0)
-    # env.step([0.5, 0.5, 0.5, 0.0, 0.0, 0.0])
+    # save_txt(5)
+    # qlearning(env)
+
+    env.reset()
+    rospy.sleep(3.0)
+    env.step([0.5, 0.0, 0.25, 3.14, 0.0, 0.0])
+    rospy.sleep(20.0)
+    env.step([0.5, 0.0, 0.5, 3.14, 0.0, 0.0])
     # print("between 2 actions")
     # env.step([0.5, 0.0, 0.2, 0.0, 0.0, 0.0])
     # print("between 2 actions")
     # env.reset()
     
-    rospy.sleep(15.0)
+    rospy.sleep(150.0)
     print("Close node: start_qlearning_reflex.py")
     print("Close node: start_qlearning_reflex.py")
     print("Close node: start_qlearning_reflex.py")
