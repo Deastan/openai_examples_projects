@@ -309,14 +309,24 @@ def main():
 
 
     env = init_env()
-    # save_txt(5)
-    # qlearning(env)
-
     env.reset()
-    rospy.sleep(3.0)
-    env.step([0.5, 0.0, 0.25, 3.14, 0.0, 0.0])
-    rospy.sleep(20.0)
-    env.step([0.5, 0.0, 0.5, 3.14, 0.0, 0.0])
+    save_txt(5)
+    qlearning(env)
+
+    # env.reset()
+    # rospy.sleep(3.0)
+    # # Move by catching
+    # env.step([0.5, 0.0, 0.25, 3.14, 0.0, 0.0])
+    # rospy.sleep(15.0)
+    # env.step([0.5, 0.0, 0.50, 3.14, 0.0, 0.0])
+    # env.step([0.5, -0.2, 0.150, 3.14, 0.0, 0.0])
+
+    # Move by sliding
+    # env.step([0.5, 0.5, 0.15, 3.14, 0.0, 0.0])#1.57
+    # env.step([0.5, 0.25, 0.15, 3.14, 0.0, 0.0])
+    # env.step([0.5, 0.0, 0.150, 3.14, 0.0, 0.0])
+    # env.step([0.5, -0.2, 0.150, 3.14, 0.0, 0.0])
+
     # print("between 2 actions")
     # env.step([0.5, 0.0, 0.2, 0.0, 0.0, 0.0])
     # print("between 2 actions")
