@@ -61,9 +61,15 @@ def defined_action():
 def discrete_action(action):
     '''
     Transform the asking action to a discretize action to simplify the problem 
+    0 = + step_size * x
+    1 = - step_size * x
+    2 = + step_size * y
+    3 = + step_size * y
+    4 = + step_size * z
+    5 = - step_size * z
     '''
     a = [0, 0, 0, 0, 0, 0]
-    step_size = 0.1
+    step_size = 0.01
     if action == 0:
         a[action] = step_size
     elif action == 1:
@@ -169,7 +175,7 @@ def test_function_cont(env, max_steps):
 def test_function_discrete(env, max_steps):
     for i in range(0, max_steps):
         action = env.action_space.sample()
-        print(action)
+        # print(action)
         discrete_action_vector = discrete_action(action)
         observation, reward, done, info = env.step(discrete_action_vector)
         print("*********************************************")
@@ -200,7 +206,7 @@ def qlearning(env):
     
     # General Parameters
     max_episode = 100
-    max_steps = 20
+    max_steps = 25
     MAX_EPISODES = max_episode # Number of episode
 
     action_size = env.action_space.n
@@ -310,8 +316,8 @@ def main():
 
     env = init_env()
     env.reset()
-    save_txt(5)
-    qlearning(env)
+    # save_txt(5)
+    # qlearning(env)
 
     # env.reset()
     # rospy.sleep(3.0)
